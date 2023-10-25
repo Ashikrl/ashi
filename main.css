@@ -1,0 +1,46 @@
+.navbar {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.nav-center{
+    width: 90vw;
+    max-width: var(--max-width);
+    
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+}
+.nav-header img{
+    width: 200px;
+}
+.nav-btn{
+    padding: 0.15rem 0.75rem;
+}
+.nav-btn i{
+    font-size: 1.25rem;
+}
+.nav-links{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    color: grey;
+    letter-spacing: normal;
+    padding: 1rem 0;
+    border-top: 1px;
+    transition: all;
+    }
+    .nav-link:hover{
+        color: #000;
+    }
+    .contact-link a{
+        padding: .15rem 1rem;
+    }
